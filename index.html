@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Ne Yapsam?</title>
+<style>
+body{
+  font-family:Arial;
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+
+.recipe{
+  border:1px solid #ddd;
+  padding:15px;
+  margin-bottom:15px;
+  border-radius:8px;
+}
+</style>
+</head>
+<body>
+
+<h1>🍳 Ne Yapsam?</h1>
+
+<div id="recipes"></div>
+
+<script src="recipes.js"></script>
+
+<script>
+const container = document.getElementById("recipes");
+
+recipes.forEach(recipe => {
+
+  const html = `
+    <div class="recipe">
+      <h2>${recipe.title}</h2>
+
+      <h3>Malzemeler</h3>
+      <ul>
+        ${recipe.ingredients
+          .map(i => `<li>${i}</li>`)
+          .join("")}
+      </ul>
+
+      <h3>Hazırlanışı</h3>
+      <p>${recipe.instructions}</p>
+    </div>
+  `;
+
+  container.innerHTML += html;
+});
+</script>
+
+</body>
+</html>
