@@ -5,10 +5,12 @@ const recipes = [
     ingredients: [
       "1 su bardağı kırmızı mercimek",
       "1 soğan",
-      "1 havuç"
+      "1 havuç",
+      "1 yemek kaşığı un",
+      "2 yemek kaşığı sıvı yağ"
     ],
     instructions:
-      "Mercimeği yıkayın. Soğan ve havucu kavurun. Su ekleyip pişirin."
+      "Mercimeği yıkayın. Un,Soğan ve havucu kavurun. Su ekleyip pişirin. Pişmesi tamamlanınca ocaktan aldıktan sonra blenderdan geçirin"
   },
   {
     id: 2,
@@ -31,5 +33,21 @@ const recipes = [
   ],
   instructions:
     "Pirinci haşlayın, süt ve şekeri ekleyip pişirin."
+},
+{
+  id: 4,
+  title: "Aşure",
+  ingredients: [
+    "2 su bardağı aşurelik buğday",
+    "1 çay bardağı nohut",
+    "1 çay bardağı kuru fasulye",
+    "1 çay bardağı pirinç",
+    "1 su bardağı kuru kayısı",
+    "1 su bardağı kuru üzüm",
+    "1 su bardağı toz şeker",
+    "2 litre su"
+  ],
+  instructions:
+    "Buğday, nohut ve fasulyeyi haşlayın. Pirinci ekleyip pişirin. Doğranmış kayısı, üzüm ve şekeri ilave ederek karıştırın. Kıvam alana kadar pişirip kaselere paylaştırın."
 }
 ];
