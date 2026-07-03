@@ -34,7 +34,7 @@ placeholder="🔍 Tarif ara...">
 <div id="recipes"></div>
 
 <script src="recipes.js"></script>
-
+<script src="script.js"></script>
 <script>
 const container = document.getElementById("recipes");
 
@@ -55,7 +55,13 @@ recipes.forEach(recipe => {
 
       <h3>Hazırlanışı</h3>
       <p>${recipe.instructions}</p>
-      <button class="favorite-btn">❤️ Favorilere Ekle</button>
+	<button
+	class="favorite-btn"
+	onclick="toggleFavorite(${recipe.id}, this)">
+	${favorites.includes(recipe.id)
+	? "❤️ Favorilerden Çıkar"
+	: "🤍 Favorilere Ekle"}
+	</button>
     </div>
   `;
 
