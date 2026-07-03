@@ -75,5 +75,21 @@ const recipes = [
   ],
   instructions:
     "Yumurta ve şekeri çırpın. Süt ve sıvı yağı ekleyin. Un, kabartma tozu, vanilin ve tuzu ilave ederek pürüzsüz bir hamur hazırlayın. Waffle makinesini ısıtıp hamuru pişirin. Üzerine çikolata sosu sürün, muz, çilek ve kiviyi yerleştirin. Son olarak fındık veya Antep fıstığı serperek servis edin."
+},
+  {
+  id: 6,
+  title: "Pankek",
+  image: "images/pankek.jpg",
+  ingredients: [
+    "1 adet yumurta",
+    "1 su bardağı un",
+    "0,6 su bardağı süt",
+    "1 yemek kaşığı toz şeker",
+    "1 paket kabartma tozu",
+    "1 paket vanilin",
+    "Pişirmek için sıvı yağ",
+  ],
+  instructions:
+    "Yumurta ve şekeri çırpın. Süt ekleyin. Un, kabartma tozu, vanilin ilave ederek pürüzsüz bir hamur hazırlayın. Tavada ısıtıp hamuru pişirin. "
 }
 ];
