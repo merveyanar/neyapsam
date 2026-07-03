@@ -12,8 +12,9 @@ body{
 }
 
 .logo{
-    width:180px;
+    width:120px;
     height:auto;
+    max-width:100%;
 }
 #recipes{
     display:grid;
