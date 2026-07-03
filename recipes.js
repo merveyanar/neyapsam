@@ -2,6 +2,7 @@ const recipes = [
   {
     id: 1,
     title: "Mercimek Çorbası",
+    image: "images/mercimek.jpg",
     ingredients: [
       "1 su bardağı kırmızı mercimek",
       "1 soğan",
@@ -14,7 +15,8 @@ const recipes = [
   },
   {
     id: 2,
-    title: "Menemen",
+    title: "Menemen", 
+    image: "images/menemen.jpg",
     ingredients: [
       "3 yumurta",
       "2 domates",
@@ -26,6 +28,7 @@ const recipes = [
   {
   id: 3,
   title: "Sütlaç",
+  image: "images/sutlac.jpg",
   ingredients: [
     "1 litre süt",
     "1 çay bardağı pirinç",
@@ -36,7 +39,8 @@ const recipes = [
 },
 {
   id: 4,
-  title: "Aşure",
+  title: "Aşure", 
+  image: "images/asure.jpg",
   ingredients: [
     "2 su bardağı aşurelik buğday",
     "1 çay bardağı nohut",
@@ -49,20 +53,5 @@ const recipes = [
   ],
   instructions:
     "Buğday, nohut ve fasulyeyi haşlayın. Pirinci ekleyip pişirin. Doğranmış kayısı, üzüm ve şekeri ilave ederek karıştırın. Kıvam alana kadar pişirip kaselere paylaştırın."
-},
-  {
-  id: 5,
-  title: "Waffle",
-  ingredients: [
-    "2 adet yumurta",
-    "2 su bardağı un",
-    "1,5 su bardağı süt",
-    "1/2 su bardağı sıvı yağ",
-    "2 yemek kaşığı şeker",
-    "1 paket kabartma tozu",
-    "1 paket vanilin"
-  ],
-  instructions:
-    "Yumurta ve şekeri çırpın. Süt ve sıvı yağı ekleyin. Un, kabartma tozu ve vanilini ilave edip pürüzsüz bir hamur hazırlayın. Waffle makinesinde altın rengini alana kadar pişirin. İsteğe göre meyve, çikolata veya bal ile servis edin."
 }
 ];

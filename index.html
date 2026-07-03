@@ -2,128 +2,28 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🍳 Ne Yapsam?</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+<title>Ne Yapsam?</title>
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 body{
-    font-family:'Poppins',sans-serif;
-    background:#f5f7fa;
-    color:#333;
-}
-
-header{
-    background:linear-gradient(135deg,#ff914d,#ff5e62);
-    color:white;
-    text-align:center;
-    padding:40px 20px;
-    margin-bottom:40px;
-}
-
-header h1{
-    font-size:42px;
-    margin-bottom:10px;
-}
-
-header p{
-    opacity:.9;
-}
-
-#recipes{
-    max-width:1100px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:25px;
-    padding:20px;
+  font-family:Arial;
+  max-width:900px;
+  margin:auto;
+  padding:20px;
 }
 
 .recipe{
-    background:white;
-    border-radius:18px;
-    padding:25px;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-    transition:.3s;
-}
-
-.recipe:hover{
-    transform:translateY(-8px);
-    box-shadow:0 18px 40px rgba(0,0,0,.15);
-}
-
-.recipe h2{
-    color:#ff5e62;
-    margin-bottom:15px;
-}
-
-.recipe h3{
-    margin-top:15px;
-    margin-bottom:10px;
-    color:#444;
-}
-
-.recipe ul{
-    list-style:none;
-}
-
-.recipe li{
-    padding:8px 0;
-    border-bottom:1px solid #eee;
-}
-
-.recipe li::before{
-    content:"✔";
-    color:#ff914d;
-    margin-right:10px;
-    font-weight:bold;
-}
-
-.recipe p{
-    line-height:1.7;
-    margin-top:10px;
-}
-
-footer{
-    text-align:center;
-    padding:30px;
-    color:#777;
-    font-size:14px;
-}
-
-@media(max-width:600px){
-
-header h1{
-    font-size:32px;
-}
-
-.recipe{
-    padding:20px;
-}
-
+  border:1px solid #ddd;
+  padding:15px;
+  margin-bottom:15px;
+  border-radius:8px;
 }
 </style>
-
 </head>
 <body>
 
-<header>
-    <h1>🍳 Ne Yapsam?</h1>
-    <p>Birbirinden lezzetli tarifleri keşfet.</p>
-</header>
+<h1>🍳 Ne Yapsam?</h1>
 
 <div id="recipes"></div>
-
-<footer>
-    © 2026 Ne Yapsam? | Afiyet Olsun ❤️
-</footer>
 
 <script src="recipes.js"></script>
 
@@ -132,25 +32,25 @@ const container = document.getElementById("recipes");
 
 recipes.forEach(recipe => {
 
-    const html = `
+  const html = `
     <div class="recipe">
+      <img src="${recipe.image}" alt="${recipe.title}" class="recipe-image">
 
-        <h2>${recipe.title}</h2>
+      <h2>${recipe.title}</h2>
 
-        <h3>🥣 Malzemeler</h3>
+      <h3>Malzemeler</h3>
+      <ul>
+        ${recipe.ingredients
+          .map(i => `<li>${i}</li>`)
+          .join("")}
+      </ul>
 
-        <ul>
-            ${recipe.ingredients.map(item => `<li>${item}</li>`).join("")}
-        </ul>
-
-        <h3>👨‍🍳 Hazırlanışı</h3>
-
-        <p>${recipe.instructions}</p>
-
+      <h3>Hazırlanışı</h3>
+      <p>${recipe.instructions}</p>
     </div>
-    `;
+  `;
 
-    container.innerHTML += html;
+  container.innerHTML += html;
 });
 </script>
 
