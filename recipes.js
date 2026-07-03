@@ -53,5 +53,27 @@ const recipes = [
   ],
   instructions:
     "Buğday, nohut ve fasulyeyi haşlayın. Pirinci ekleyip pişirin. Doğranmış kayısı, üzüm ve şekeri ilave ederek karıştırın. Kıvam alana kadar pişirip kaselere paylaştırın."
+},
+  {
+  id: 5,
+  title: "Waffle",
+  image: "images/waffle.jpg",
+  ingredients: [
+    "2 adet yumurta",
+    "2 su bardağı un",
+    "1,5 su bardağı süt",
+    "1/2 su bardağı sıvı yağ",
+    "2 yemek kaşığı toz şeker",
+    "1 paket kabartma tozu",
+    "1 paket vanilin",
+    "Bir tutam tuz",
+    "Çikolata sosu",
+    "Muz",
+    "Çilek",
+    "Kivi",
+    "Fındık veya Antep fıstığı"
+  ],
+  instructions:
+    "Yumurta ve şekeri çırpın. Süt ve sıvı yağı ekleyin. Un, kabartma tozu, vanilin ve tuzu ilave ederek pürüzsüz bir hamur hazırlayın. Waffle makinesini ısıtıp hamuru pişirin. Üzerine çikolata sosu sürün, muz, çilek ve kiviyi yerleştirin. Son olarak fındık veya Antep fıstığı serperek servis edin."
 }
 ];
