@@ -26,7 +26,11 @@ body{
 <img src="images/logo.png" alt="Ne Yapsam" class="logo">
 
 </div>
-
+<input
+type="text"
+id="search"
+class="search"
+placeholder="🔍 Tarif ara...">
 <div id="recipes"></div>
 
 <script src="recipes.js"></script>
@@ -51,6 +55,7 @@ recipes.forEach(recipe => {
 
       <h3>Hazırlanışı</h3>
       <p>${recipe.instructions}</p>
+      <button class="favorite-btn">❤️ Favorilere Ekle</button>
     </div>
   `;
 
