@@ -12,3 +12,22 @@
     margin-bottom:20px;
     box-shadow:0 2px 8px rgba(0,0,0,.1);
 }
+.logo-container{
+
+&nbsp;&nbsp;text-align:center;
+
+&nbsp;&nbsp;margin-bottom:30px;
+
+}
+
+.logo{
+
+&nbsp;&nbsp;max-width:450px;
+
+&nbsp;&nbsp;width:100%;
+
+&nbsp;&nbsp;height:auto;
+
+&nbsp;&nbsp;display:inline-block;
+
+}
