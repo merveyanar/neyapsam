@@ -5,16 +5,19 @@ body{
     margin:auto;
     padding:20px;
 }
-.logo-container{
-    justify-content:center;
-    margin:20px 0 30px;
-    display:flex;
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 0 30px;
 }
 
-.logo{
-    width: 750px;
-    height:auto;
-    max-width:100%;
+.logo {
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    margin: 0;
 }
 #recipes{
     display:grid;
