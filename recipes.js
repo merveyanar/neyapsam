@@ -172,7 +172,7 @@ const recipes = [
   {
   id: 11,
   title: "Kahveli Islak Kurabiye",
-  image: "images/kahveli-islak-kurabiye.jpg",
+  image: "images/islak-kurabiye.jpg",
   ingredients: [
     "125 gram tereyağı veya margarin",
     "1 adet yumurta",
