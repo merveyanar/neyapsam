@@ -169,4 +169,26 @@ const recipes = [
   instructions:
     "Yumurta ve şekeri köpük köpük olana kadar çırpın. Süt ve sıvı yağı ekleyip karıştırın. Kakao, un, kabartma tozu ve vanilini ilave ederek pürüzsüz bir kek harcı hazırlayın. Yağlanmış borcama dökün ve önceden ısıtılmış 180 derece fırında yaklaşık 30-35 dakika pişirin. Sos için süt, sıvı yağ, şeker ve kakaoyu bir tencerede karıştırarak kaynama noktasına kadar ısıtın. Fırından çıkan keki 5 dakika dinlendirin ve dilimleyin. Ilık sosu kekin üzerine eşit şekilde dökün. Sosunu çekmesi için en az 1 saat dinlendirin. İsteğe göre Hindistan cevizi veya çikolata parçalarıyla süsleyerek servis edin."
 },
+  {
+  id: 11,
+  title: "Kahveli Islak Kurabiye",
+  image: "images/kahveli-islak-kurabiye.jpg",
+  ingredients: [
+    "125 gram tereyağı veya margarin",
+    "1 adet yumurta",
+    "1 çay bardağı sıvı yağ",
+    "1 çay bardağı pudra şekeri",
+    "2 yemek kaşığı kakao",
+    "1 tatlı kaşığı Türk kahvesi",
+    "1 paket vanilin",
+    "1 paket kabartma tozu",
+    "2,5–3 su bardağı un",
+    "Sosu için:",
+    "1 su bardağı süt",
+    "Yarım su bardağı toz şeker",
+    "1 tatlı kaşığı granül kahve"
+  ],
+  instructions:
+    "Öncelikle süt, şeker ve granül kahveyi bir tencerede şeker eriyene kadar ısıtıp soğumaya bırakın. Yumurta, tereyağı, sıvı yağ ve pudra şekerini karıştırın. Kakao, Türk kahvesi, vanilin, kabartma tozu ve unu kontrollü ekleyerek yumuşak bir hamur yoğurun. Hamurdan ceviz büyüklüğünde parçalar koparıp yuvarlayın. Yağlı kâğıt serili tepsiye dizin. Önceden ısıtılmış 180 derece fırında 15–18 dakika pişirin. Fırından çıkan sıcak kurabiyeleri soğuk kahveli sosa birkaç saniye batırıp çıkarın. Servis tabağına alın ve üzerini Hindistan cevizi veya eritilmiş çikolata ile süsleyin. Afiyet olsun."
+},
 ];
