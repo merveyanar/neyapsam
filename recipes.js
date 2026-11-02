@@ -147,5 +147,26 @@ const recipes = [
   instructions:
     "Pirinci yıkayıp suyla birlikte tencereye alın ve yumuşayana kadar haşlayın. Ayrı bir kapta yoğurt, un ve yumurta sarısını çırpın. Kaynayan pirinç suyundan birkaç kaşık alarak yoğurtlu karışımı ılıştırın. Karışımı tencereye yavaşça ekleyip sürekli karıştırın. Kısık ateşte kaynayana kadar pişirin. Tuzunu ekleyin. Küçük bir tavada tereyağını eritip naneyi kavurun ve çorbanın üzerine gezdirerek servis edin."
 },
-
+{
+  id: 10,
+  title: "Islak Kek",
+  image: "images/islak-kek.jpg",
+  ingredients: [
+    "3 adet yumurta",
+    "1 su bardağı toz şeker",
+    "1 su bardağı süt",
+    "1 su bardağı sıvı yağ",
+    "3 yemek kaşığı kakao",
+    "1,5 su bardağı un",
+    "1 paket kabartma tozu",
+    "1 paket vanilin",
+    "Sosu için:",
+    "1,5 su bardağı süt",
+    "Yarım su bardağı sıvı yağ",
+    "Yarım su bardağı toz şeker",
+    "2 yemek kaşığı kakao"
+  ],
+  instructions:
+    "Yumurta ve şekeri köpük köpük olana kadar çırpın. Süt ve sıvı yağı ekleyip karıştırın. Kakao, un, kabartma tozu ve vanilini ilave ederek pürüzsüz bir kek harcı hazırlayın. Yağlanmış borcama dökün ve önceden ısıtılmış 180 derece fırında yaklaşık 30-35 dakika pişirin. Sos için süt, sıvı yağ, şeker ve kakaoyu bir tencerede karıştırarak kaynama noktasına kadar ısıtın. Fırından çıkan keki 5 dakika dinlendirin ve dilimleyin. Ilık sosu kekin üzerine eşit şekilde dökün. Sosunu çekmesi için en az 1 saat dinlendirin. İsteğe göre Hindistan cevizi veya çikolata parçalarıyla süsleyerek servis edin."
+},
 ];
