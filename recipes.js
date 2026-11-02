@@ -91,5 +91,61 @@ const recipes = [
   ],
   instructions:
     "Yumurta ve şekeri çırpın. Süt ekleyin. Un, kabartma tozu, vanilin ilave ederek pürüzsüz bir hamur hazırlayın. Tavada ısıtıp hamuru pişirin. "
-}
+},
+{
+  id: 7,
+  title: "Fırında Palamut",
+  image: "images/palamut.jpg",
+  ingredients: [
+    "2 adet palamut",
+    "2 adet kuru soğan",
+    "2 adet domates",
+    "1 adet limon",
+    "2 adet yeşil biber",
+    "3 yemek kaşığı zeytinyağı",
+    "Tuz",
+    "Karabiber",
+    "Kekik"
+  ],
+  instructions:
+    "Palamutları temizleyip dilimleyin. Soğanları, domatesleri ve biberleri doğrayın. Fırın tepsisine önce soğanları, ardından palamut dilimlerini yerleştirin. Üzerine domates, biber ve limon dilimlerini ekleyin. Zeytinyağı, tuz, karabiber ve kekik ilave edin. Önceden ısıtılmış 200 derece fırında yaklaşık 30-35 dakika pişirin."
+},
+{
+  id: 8,
+  title: "Cheesecake",
+  image: "images/cheesecake.jpg",
+  ingredients: [
+    "2 paket yulaflı bisküvi",
+    "100 gram tereyağı",
+    "600 gram labne peyniri",
+    "1 su bardağı toz şeker",
+    "3 adet yumurta",
+    "200 ml sıvı krema",
+    "2 yemek kaşığı un",
+    "1 paket vanilin",
+    "1 su bardağı frambuaz",
+    "3 yemek kaşığı şeker",
+    "1 tatlı kaşığı nişasta"
+  ],
+  instructions:
+    "Bisküvileri rondodan geçirip eritilmiş tereyağıyla karıştırın. Kelepçeli kalıbın tabanına bastırarak yerleştirin. Labne, şeker, krema, un ve vanilini karıştırın. Yumurtaları tek tek ekleyin. Karışımı bisküvi tabanının üzerine dökün. Önceden ısıtılmış 160 derece fırında yaklaşık 50-60 dakika pişirin. Frambuaz, şeker ve az suyla açılmış nişastayı pişirerek sos hazırlayın. Soğuyan cheesecake üzerine sosu dökün. Buzdolabında en az 4 saat dinlendirin."
+},
+{
+  id: 9,
+  title: "Yoğurt Çorbası",
+  image: "images/yogurt-corbasi.jpg",
+  ingredients: [
+    "1 su bardağı yoğurt",
+    "2 yemek kaşığı un",
+    "1 adet yumurta sarısı",
+    "3 yemek kaşığı pirinç",
+    "5 su bardağı su",
+    "1 yemek kaşığı tereyağı",
+    "1 tatlı kaşığı kuru nane",
+    "Tuz"
+  ],
+  instructions:
+    "Pirinci yıkayıp suyla birlikte tencereye alın ve yumuşayana kadar haşlayın. Ayrı bir kapta yoğurt, un ve yumurta sarısını çırpın. Kaynayan pirinç suyundan birkaç kaşık alarak yoğurtlu karışımı ılıştırın. Karışımı tencereye yavaşça ekleyip sürekli karıştırın. Kısık ateşte kaynayana kadar pişirin. Tuzunu ekleyin. Küçük bir tavada tereyağını eritip naneyi kavurun ve çorbanın üzerine gezdirerek servis edin."
+},
+
 ];
