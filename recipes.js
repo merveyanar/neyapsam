@@ -191,4 +191,21 @@ const recipes = [
   instructions:
     "Öncelikle süt, şeker ve granül kahveyi bir tencerede şeker eriyene kadar ısıtıp soğumaya bırakın. Yumurta, tereyağı, sıvı yağ ve pudra şekerini karıştırın. Kakao, Türk kahvesi, vanilin, kabartma tozu ve unu kontrollü ekleyerek yumuşak bir hamur yoğurun. Hamurdan ceviz büyüklüğünde parçalar koparıp yuvarlayın. Yağlı kâğıt serili tepsiye dizin. Önceden ısıtılmış 180 derece fırında 15–18 dakika pişirin. Fırından çıkan sıcak kurabiyeleri soğuk kahveli sosa birkaç saniye batırıp çıkarın. Servis tabağına alın ve üzerini Hindistan cevizi veya eritilmiş çikolata ile süsleyin. Afiyet olsun."
 },
+  {
+  id: 12,
+  title: "Ispanak Borani",
+  image: "images/borani.jpg",
+  ingredients: [
+    "500 gram ıspanak",
+    "1 adet kuru soğan",
+    "2 yemek kaşığı zeytinyağı",
+    "1 su bardağı yoğurt",
+    "2 diş sarımsak",
+    "1 yemek kaşığı tereyağı",
+    "1 tatlı kaşığı pul biber",
+    "Tuz"
+  ],
+  instructions:
+    "Ispanakları iyice yıkayıp doğrayın. Soğanı küçük küçük doğrayarak zeytinyağında kavurun. Ispanakları ekleyip suyunu çekene kadar pişirin. Tuz ilave edip ocaktan alın ve soğumaya bırakın. Yoğurdu ezilmiş sarımsaklarla karıştırın. Soğuyan ıspanakları sarımsaklı yoğurtla harmanlayıp servis tabağına alın. Tereyağını tavada eritip pul biberi ekleyin. Hazırladığınız sosu boraninin üzerine gezdirerek servis edin."
+}
 ];
